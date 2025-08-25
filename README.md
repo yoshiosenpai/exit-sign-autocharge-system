@@ -1,4 +1,4 @@
-# 🚨 Exit Sign Safety System (ESP32 + Blynk IoT)
+# Exit Sign Safety System (ESP32 + Blynk IoT)
 
 This repository contains two demo projects using **ROBO ESP32** with built-in LiPo auto-charge, sensors, and **Blynk IoT Web Dashboard** for monitoring.
 
@@ -13,7 +13,7 @@ This repository contains two demo projects using **ROBO ESP32** with built-in Li
 
 ---
 
-## 🛠 Hardware
+## Hardware
 - ROBO ESP32 (Cytron)
 - APDS9960 Light/Color Sensor (I²C)  
 - MQ-2 Smoke Sensor (Digital pin)  
@@ -23,7 +23,7 @@ This repository contains two demo projects using **ROBO ESP32** with built-in Li
 
 ---
 
-## 📦 Software
+## Software
 - Arduino IDE + **ESP32 board support**  
 - Libraries:  
   - [Blynk](https://github.com/blynkkk/blynk-library)  
@@ -32,7 +32,7 @@ This repository contains two demo projects using **ROBO ESP32** with built-in Li
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 1. Clone this repo  
 2. Install required libraries in Arduino IDE  
 3. Open **Demo1.ino** or **Demo2.ino**  
