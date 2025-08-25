@@ -1,3 +1,18 @@
+/********  Demo 2: Exit Sign Smoke Alarm System (MQ-2 + Buzzer)  ********
+ * - Uses MQ-2 sensor DO pin to detect smoke (digital threshold via onboard trimpot)
+ * - On smoke detection: triggers buzzer alarm + red NeoPixel blink 
+ * - After alarm, enters 1-hour cooldown (ignores further triggers)
+ * - Serial commands:
+ *      L = toggle live log (DO state updates)
+ *      S = print current status
+ *      R = reset cooldown immediately
+ *      T = trigger test alarm (manual)
+ * - Blynk Datastreams:
+ *   V0 (Integer 0/1): Smoke status (0=Normal, 1=Smoke Detected)
+ *   V1 (Integer 0/1): Cooldown status (0=Ready, 1=Cooldown Active)
+ * Code by Solehin Rizal
+ *******************************************************************************/
+
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 
