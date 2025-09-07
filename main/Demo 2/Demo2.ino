@@ -20,7 +20,7 @@
 // ---------- Relay polarity ----------
 // If your relay turns ON when you write LOW, set to 0 (active-LOW).
 // If it turns ON when you write HIGH, set to 1 (active-HIGH).
-#define RELAY_ACTIVE_HIGH 0
+#define RELAY_ACTIVE_HIGH 1
 
 // ---------- Tunables ----------
 #define WARMUP_MS       60000UL   // sensor warmup after boot
